@@ -1,0 +1,10 @@
+
+
+
+I'm trying to push my project (all files in a new repository). I follow the steps but when I push with git push -u origin master I get this error
+
+
+
+As the error message says: git pull before you try to git push. Apparently your local branch is out of sync with your tracking branch.
+
+Depending on project rules and your workflow you might also want to use git pull --rebase.
